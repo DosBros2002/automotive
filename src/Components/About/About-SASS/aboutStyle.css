@@ -1,0 +1,87 @@
+.about-head {
+  background-image: url("../Images/aila-4.jpg");
+  margin-top: 110px;
+  padding: 3rem 5rem;
+}
+
+.about-head h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: calc(24px + (35 - 24) * (100vw - 320px) / (1920 - 320));
+}
+
+.about-head p {
+  color: #bebebe;
+  font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+}
+
+.company-deteles {
+  width: 88%;
+  margin-left: 6%;
+}
+
+.company-deteles .company {
+  margin-top: 50px;
+}
+
+.company-deteles .company .company-writing p {
+  text-align: justify;
+  color: #777474;
+  font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+}
+
+.company-deteles .company .company-writing h3 {
+  font-weight: 600;
+}
+
+.company-deteles .company .company-img {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company-deteles .company .company-img img {
+  width: 100%;
+}
+
+.team-member h3 {
+  font-weight: 600;
+  font-size: calc(22px + (30 - 22) * (100vw - 320px) / (1920 - 320));
+}
+
+.team-member p {
+  color: #777474;
+  font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+}
+
+.team-member .members .member .member-writing h5 {
+  font-weight: 600;
+  font-size: calc(17px + (20 - 17) * (100vw - 320px) / (1920 - 320));
+}
+
+.team-member .members .member .member-writing p {
+  text-align: justify;
+  color: #777474;
+  font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+}
+
+.team-member .members .member .member-img img {
+  width: 130px;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.aboutus-video {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .about-head {
+    margin-top: 50px;
+    padding: 1rem;
+  }
+}
+/*# sourceMappingURL=aboutStyle.css.map */

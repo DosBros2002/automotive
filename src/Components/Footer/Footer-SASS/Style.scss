@@ -1,0 +1,106 @@
+.full-footer{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(31, 30, 30);
+}
+.footer{
+    width: 86%;
+    margin-left: 7%;
+    .firstFooter{
+        margin-right: 15%;
+        img{
+            width: 200px;
+            margin-bottom: 30px;
+        }
+        p{
+            color: rgb(175, 172, 172);
+        }
+        .firstFooter-p{
+            color: rgb(175, 172, 172);
+            margin-bottom: 40px;
+        }
+        h6{
+            color: #fff;
+            font-weight: 600;
+        }
+        .monday{
+            margin-right: 80px;
+        }
+        .sunday{
+            margin-right: 80px;
+        }
+        .time{
+            background-color: rgb(228, 1, 1);
+            text-align: center;
+            width: 125px;
+            height: 23px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .close{
+            background-color: rgb(228, 1, 1);
+            text-align: center;
+            width: 125px;
+            height: 23px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .secondFooter{
+        h2{
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        p, a{
+            line-height: 13px;
+            font-size: 16px;
+            color: rgb(175, 172, 172);
+            text-decoration: none;
+            &:hover{
+                color: rgb(228, 1, 1);
+            }
+        }
+        .info{
+            margin-left: 16%;
+        }
+        .links{
+            margin-left: 16%;
+            margin-bottom: 14%;
+        }
+    }
+    
+}
+.lasstFooter{
+    margin-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgb(175, 172, 172);
+    a{
+        color: rgb(236, 37, 37);
+        &:hover{
+            color: rgb(228, 1, 1);
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .footer .secondFooter .links{
+        margin-left: 0px;
+    }
+    .footer .secondFooter .info{
+        margin-left: 0px;
+    }
+    .services{
+        margin-bottom: 14%;
+    }
+    .segments{
+        margin-bottom: 14%;
+    }
+    .lasstFooter{
+        font-size: 13px;
+        padding: 10px 10px 40px 10px;
+    }
+}

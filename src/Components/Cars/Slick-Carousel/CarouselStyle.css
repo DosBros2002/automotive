@@ -1,0 +1,161 @@
+.all-carousel-item {
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  margin-top: 110px;
+}
+
+.full-carousel {
+  width: 88%;
+  margin-left: 7%;
+}
+
+.full-carousel h2 {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.full-carousel p {
+  color: rgb(119, 116, 116);
+}
+.input input{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  padding: 5px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(228, 1, 1) !important;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  width: 108%;
+  margin-left: -4%;
+  border-radius: 10px 10px 0 0;
+}
+
+.slick-prev {
+  margin-left: 12px;
+  margin-top: 100px;
+}
+
+.slick-next {
+  margin-right: 12px;
+  margin-top: 100px;
+}
+
+
+.carousel {
+  width: 340px;
+  height: 380px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.7s;
+  border-radius: 10px;
+}
+
+.carousel:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.full-carousel .img {
+  width: 100%;
+  height: 170px;
+}
+
+.carousel-3 {
+  margin-top: 30px;
+}
+
+.carousel-3 p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.carousel-3 h3 {
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.carousel-3 h3:hover {
+  color: rgb(228, 1, 1);
+}
+
+.carousel-3 span {
+  color: rgb(228, 1, 1);
+  font-weight: 600;
+  padding: 5px;
+  border: 1px solid rgb(228, 1, 1);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.carousel-3 span:hover {
+  color: #fff;
+  background-color: rgb(228, 1, 1);
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .full-carousel {
+    width: 88%;
+    margin-left: 6%;
+    display: grid;
+    justify-content: center;
+  }
+  .carousel{
+    width: 300px;
+    height: auto;
+  }
+  .slick-list{
+    width: 100%;
+    margin-left: 0px;
+}
+.slick-next {
+    margin-right: 24px;
+    margin-top: 120px;
+}
+.slick-prev{
+    margin-left: 24px;
+    margin-top: 120px;
+}
+.carousel-3 {
+  margin-top: 50px;
+  padding: 10px;
+}
+}
+
+@media screen and (max-width: 800px){
+  .all-carousel-item{
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 600px){
+  .full-carousel h2{
+    width: 88%;
+    margin-left: 6%;
+    text-align: center;
+  }
+  .full-carousel p{
+    width: 88%;
+    margin-left: 6%;
+    text-align: center;
+  }
+  .input{
+    display: grid;
+    justify-content: center;
+  }
+}

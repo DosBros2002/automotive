@@ -1,0 +1,62 @@
+$p-color: rgb(119, 116, 116);
+
+.service-headar {
+    background-image: url('../Images/marzoccointernals.jpg');
+    margin-top: 110px;
+    padding: 3rem 5rem;
+
+    h3 {
+        color: #fff;
+        font-weight: 600;
+        font-size: calc(24px + (35 - 24) * (100vw - 320px) / (1920 - 320));
+    }
+
+    p {
+        color: rgb(190, 190, 190);
+        font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+    }
+}
+
+
+.all-service-card {
+    width: 88%;
+    margin-left: 6%;
+
+    .service-card {
+        margin-top: 100px;
+
+        .service-writing {
+            h4 {
+                border-bottom: 2px solid red;
+                font-weight: 600;
+                font-size: calc(22px + (30 - 22) * (100vw - 320px) / (1920 - 320));
+                margin-bottom: 20px;
+            }
+
+            p,
+            ul li {
+                text-align: justify;
+                color: $p-color;
+                font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+
+            }
+        }
+
+        .service-img {
+            img {
+                width: 200px;
+            }
+
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .service-headar {
+        margin-top: 50px;
+        padding: 1rem;
+    }
+
+}

@@ -1,0 +1,100 @@
+.full-news {
+  background-color: #ebebeb;
+}
+
+.all-news {
+  width: 88%;
+  margin-left: 6%;
+  margin-top: 110px;
+  padding-top: 50px;
+}
+
+.all-news h3 {
+  font-size: calc(24px + (35 - 24) * (100vw - 320px) / (1920 - 320));
+  font-weight: 600;
+}
+
+.all-news p {
+  font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+  color: #777474;
+}
+
+.all-news .news-1 {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 2rem 2rem 2rem 0;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.all-news .news-1 span {
+  border-bottom: 1px solid #777474;
+  font-size: calc(12px + (22 - 12) * (100vw - 320px) / (1920 - 320));
+}
+
+.all-news .news-1 p,
+.all-news .news-1 span {
+  color: #777474;
+}
+
+.all-news .news-1 p {
+  padding-top: 10px;
+  text-align: justify;
+  font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+}
+
+.all-news .news-1 h4 {
+  font-weight: 600;
+  font-size: calc(18px + (30 - 18) * (100vw - 320px) / (1920 - 320));
+}
+
+.all-news .news-1 .news-writing-1 {
+  padding: 20px 20px 20px 0;
+}
+
+.all-news .news-1 .img-1 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all-news .news-1 .img-1 img {
+  width: 580px;
+  border-radius: 10px 0 0 10px;
+  height: 350px;
+}
+
+@media screen and (max-width: 1300px) {
+  .all-news .news-1 .news-writing-1 {
+    padding: 10px;
+  }
+  .all-news .news-1 {
+    display: block;
+    margin: 0rem;
+    margin-bottom: 50px;
+  }
+  .all-news .news-1 .img-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .all-news .news-1 .img-1 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .all-news {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=NewsStyle.css.map */

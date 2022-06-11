@@ -1,0 +1,169 @@
+$p-color: rgb(119, 116, 116);
+
+.about-head {
+    background-image: url('../Images/aila-4.jpg');
+    margin-top: 110px;
+    padding: 3rem 5rem;
+
+    h3 {
+        color: #fff;
+        font-weight: 600;
+        font-size: calc(24px + (35 - 24) * (100vw - 320px) / (1920 - 320));
+    }
+
+    p {
+        color: rgb(190, 190, 190);
+        font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+    }
+}
+
+// company-deteles
+.company-deteles {
+    width: 88%;
+    margin-left: 6%;
+
+    .company {
+        margin-top: 50px;
+
+        .company-writing {
+            p {
+                text-align: justify;
+                color: $p-color;
+                font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+            }
+
+            h3 {
+                font-weight: 600;
+            }
+        }
+
+        .company-img {
+            display: grid;
+            align-items: center;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// team-member
+.team-member {
+    h3 {
+        font-weight: 600;
+        font-size: calc(22px + (30 - 22) * (100vw - 320px) / (1920 - 320));
+    }
+
+    p {
+        color: $p-color;
+        font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+    }
+
+    .members {
+        .member {
+            .member-writing {
+                h5 {
+                    font-weight: 600;
+                    font-size: calc(17px + (20 - 17) * (100vw - 320px) / (1920 - 320));
+                }
+
+                p {
+                    text-align: justify;
+                    color: $p-color;
+                    font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1920 - 320));
+                }
+            }
+
+            .member-img {
+                img {
+                    width: 130px;
+                    border-radius: 5px;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+            }
+        }
+    }
+}
+
+// video
+.aboutus-video {
+    margin-top: 50px;
+}
+
+// reviews
+.reviews {
+    @include body_center;
+
+    p {
+        color: $p-color;
+    }
+
+    .firstreview {
+        margin-top: 120px;
+
+        h2 {
+            font-weight: 600;
+        }
+    }
+
+    .secondreview {
+        margin-top: 100px;
+
+        h3 {
+            font-weight: 600;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+            float: right;
+        }
+
+        span {
+            font-style: italic;
+            font-weight: 600;
+            color: $p-color;
+
+            a {
+                color: #000;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(228, 1, 4);
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .about-head {
+        margin-top: 50px;
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+    .reviews .secondreview img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .reviews .secondreview {
+        margin-top: 30px;
+    }
+
+    .reviews .secondreview img {
+        float: none;
+        width: 100%;
+    }
+
+    .reviews .secondreview h3 {
+        margin-top: 40px;
+    }
+}
