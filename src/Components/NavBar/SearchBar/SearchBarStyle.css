@@ -37,7 +37,7 @@
 .socile-icon a{
     color: #fff;
 }
-.icon{
+.socile-icon .icon{
     margin-left: 10px;
     cursor: pointer;
 }

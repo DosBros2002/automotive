@@ -6,16 +6,18 @@ import './BackToTopStyle.css';
 
 
 export default class BtoT extends Component {
-    render() {
-      return (
-        <BackToTop
+  render() {
+    return (
+      <div className="backtoto">
+        <BackToTop className="backtotop"
           showOnScrollUp
           showAt={100}
           speed={1500}
           easing="easeInOutQuint"
         >
-          <span className="topicon"><HiOutlineArrowUp /></span>
+          <span className="topicon"><HiOutlineArrowUp className="topicon-icon" /></span>
         </BackToTop>
-      );
-    }
+      </div>
+    );
   }
+}

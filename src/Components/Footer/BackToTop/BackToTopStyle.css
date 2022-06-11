@@ -1,4 +1,4 @@
-.fWohKN {
+.backtoto button {
     margin: 100px;
     font-size: 30px;
 }
@@ -11,27 +11,30 @@
     transition: 0.5s;
     color: #000;
     position: fixed;
-    margin-right: 100px;
+    
 }
-
 .topicon:hover {
     background-color: rgb(228, 1, 1);
     color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-    .fWohKN {
+    .backtoto button{
         margin: 50px 5px;
-        font-size: 15px;
+        
     }
     .topicon {
         width: 20px;
         height: 25px;
         margin-right: 50px;
     }
+    .topicon-icon{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
 }
 @media screen and (min-width: 601px) and (max-width: 992px) {
-    .fWohKN {
+    .backtoto button{
         margin: 85px 15px;
         font-size: 30px;
     }
