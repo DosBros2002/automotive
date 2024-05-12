@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/appleconda/Developer/University/automotive/logs/.a757349d1634a8f3d982d5c2e1309f22049f6320-audit.json",
+    "files": [
+        {
+            "date": 1715520628015,
+            "name": "/Users/appleconda/Developer/University/automotive/logs/debug-2024-05-12.log",
+            "hash": "8e1cfe913c5d767e8e0d36568207af5a04b9c737d2b35ce94a279ae828e6cf53"
+        }
+    ],
+    "hashType": "sha256"
+}
