@@ -4,21 +4,16 @@ const SliderData = [
     {
         id: 1,
         img: 'Home-Slider-Image/image-1.jpg',
-        heading: 'Lamborghini Aventador',
-        desc: 'The Aventador expresses unmistakable Lamborghini DNA, adding even more dynamism, refinement and aggressiveness through its finely honed features.'
+        heading: 'Porsche GT3RS',
+        desc: 'The Porsche 911 GT3 RS is a high-performance version of the Porsche 911 sports car primarily intended for racing. '
     },
     {
         id: 2,
         img: 'Home-Slider-Image/image-2.jpg',
-        heading: 'KTM Duke 790',
-        desc: 'The KTM Duke 790 has been recently spied at a parking lot in Bangalore. This parking lot belongs to a KTM India dealer based in the same city.'
+        heading:'Hyundai Sonata',
+        desc: 'The 2021 Hyundai Sonata has a lower profile and wider stance, coupled with a modern cabin with state-of-the-art technology and safety features.'
     },
-    {
-        id: 3,
-        img: 'Home-Slider-Image/image-3.png',
-        heading: 'Headphone',
-        desc: 'Now, Headphone Wireless Noise Cancelling Headphones is now available in Bangladesh. Get the original products.'
-    },
+    
 ]
 
 export default SliderData;

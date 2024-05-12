@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="footer row pt-5 mt-5">
                     <div className="firstFooter col-lg-5">
                         <img src={FooterLogo} alt="FooterLogo" />
-                        <p className="firstFooter-p">AutoMotive LLC is the largest and most trusted car dealership within London area, delivering the latest car brands worldwide with the best deals. Come and pay us a visit during these hours:</p>
+                        <p className="firstFooter-p">Bismillah Motors LLC is the largest and most trusted car dealership within Pakistan area, delivering the latest car brands worldwide with the best deals. Come and pay us a visit during these hours:</p>
                         <h6>WORKING HOURS</h6>
                         <div className="row">
                             <p className="col-lg-5 monday">Monday - Saturday</p>
@@ -55,7 +55,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="lasstFooter">
-                    <span>Copyright ©2022 All rights reserved | This template is made with by 💖<a href="https://shsazib.netlify.app/" target="_blank"> SH Sazib</a></span>
+                    <span>For WebProject CopyRights 2024</span>
                 </div>
             </div>
 

@@ -13,11 +13,6 @@ const Contact = () => {
                 {/* NavBar */}
                 <NavBar />
 
-                {/* map */}
-                <div className="map">
-                    {/* <h1>Hello</h1> */}
-                    <iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7297.072450235397!2d90.37692547230861!3d23.87059694925907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c40fb857cb01%3A0xb6ca60a98b4c89e2!2sUttara%2012%20No.%20Sector%20park!5e0!3m2!1sen!2sbd!4v1644919646448!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
-                </div>
                 {/* Location */}
                 <div className="location">
                     <div className="located">
@@ -65,20 +60,16 @@ const Contact = () => {
                         <p>Visit our offices, or call us.</p>
                         <div className="address">
                             <h6>Address:</h6>
-                            <p>Kalium Automotive
-                                44-45 Hythe Rd,
-                                White City,
-                                London NW10 6RS,
-                                United Kingdom</p>
+                            <p>22 No. Chungi , Adyala Road , Rawalpindi </p>
                         </div>
                         <div className="phone">
                             <h6>Phone:</h6>
-                            <p>+88 01827 892939 <br /> +88 01609 992652</p>
+                            <p>033353333 <br /> 03322445533</p>
                             
                         </div>
                         <div className="email">
                             <h6>E-mail:</h6>
-                            <p>shsazibbhuiyan892939@gmail.com</p>
+                            <p>i202411@nu.edu.pk</p>
                         </div>
                         <button type="submit">SEND MESSAGE</button>
                     </div>

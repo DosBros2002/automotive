@@ -30,8 +30,6 @@ const Carousel = () => {
                                 <Slider {...settings}>
                                     <img className='img' src={curElm.img1} alt="img" />
                                     <img className='img' src={curElm.img2} alt="img" />
-                                    <img className='img' src={curElm.img3} alt="img" />
-                                    <img className='img' src={curElm.img4} alt="img" />
 
                                 </Slider>
                                 <div className='carousel-3'>

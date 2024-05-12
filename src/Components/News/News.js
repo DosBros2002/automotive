@@ -14,7 +14,7 @@ const News = () => {
 
                 <div className="all-news">
                     <h3>News</h3>
-                    <p>Stay informed and read the latest automotive news, reviews and tutorials.</p>
+                    <p>Stay informed and read the latest Bismillah Motors news, reviews and tutorials.</p>
                     {NewsApi.map((curElm, ind) => {
                         return (
                             <div className="news-1" key={ind}>

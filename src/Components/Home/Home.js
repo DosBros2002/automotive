@@ -74,23 +74,23 @@ const Home = () => {
                 {/* News of autoindustry */}
                 <div className="news-container">
                     <h2>News of autoindustry</h2>
-                    <p>Stay informed and read the latest automotive news.</p>
+                    <p>Stay informed and read the latest Bismillah Motors news.</p>
                     <div className="news">
                         <div className="all-news row">
                             <div className="news-card col-lg-3 col-md-6 col-sm-12">
                                 <img src={News1} alt="News1" />
-                                <p>JANUARY 11, 2018</p>
+                                <p>JANUARY 11, 2024</p>
                                 <h5><a href="#">How to Choose the Right Car for You</a></h5>
                             </div>
                             <div className="news-card col-lg-3 col-md-6 col-sm-12">
                                 <img src={News2} alt="News2" />
-                                <p>JANUARY 4, 2018</p>
+                                <p>JANUARY 4, 2023</p>
                                 <h5><a href="#">Use This Decision to Get Your Tires Right This Winter</a></h5>
                             </div>
                             <div className="news-card col-lg-3 col-md-6 col-sm-12">
                                 <img src={News3} alt="News3" />
-                                <p>JANUARY 1, 2018</p>
-                                <h5><a href="#">Volkswagen Just Made the Golf R Even Faster</a></h5>
+                                <p>JANUARY 1, 2024</p>
+                                <h5><a href="#">Buy a golf GTi today</a></h5>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const Home = () => {
                         <div className="col-lg-9">
                             <h3>Loving the car, professional car dealer!</h3>
                             <p>No matter where you go, the car is the coolest, most happening thing around! Absolutely wonderful! The car is the most valuable business resource we have EVER purchased.</p>
-                            <span>Brenda — really happy with her <a href="#">Renault Captur</a></span>
+                            <span>Abdullah — really happy with his <a href="#">Honda Civic</a></span>
                         </div>
                     </div>
                 </div>

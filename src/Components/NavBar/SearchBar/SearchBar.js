@@ -14,7 +14,7 @@ const SearchBar = () => {
                     <div className="phone-time">
                         {moment().format('MMMM Do YYYY')}
                         <Time/>
-                        <span>+8801827-892939</span>
+                        <span>+92-333-4455-065</span>
                         <span>MON - SAT 8:30 - 19:00</span>
                     </div>
                     <div className="search-icon">
